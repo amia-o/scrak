@@ -1,25 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Fauna+One);
+
 // Place all the styles related to the quotes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.quotes_box
+{
+	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
+	background-color: rgba(36,32,33,0.50);
+	padding-bottom: 10%;
+	padding-top: 10%;
+	width:100%;
+	margin-top: 5px;
+
+}
+
 h1
 {
-	color:red;
+	margin-top: 40px;
+	color:white;
 	text-align: center;
 	font-style: arial;
+	font-family: "Fauna One", Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
 }
 
 blockquote 
 {
-	color:red;
+	color:white;
 	text-align: center;
-	font-style: arial;
+	font-family: "Fauna One", Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
 }
 
 a:link
 {
+	margin-top: 10px;
 	float: right;
-	margin-right:30%;
+	margin-right:20%;
+	font-family: "Fauna One", Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
 
 }
 
@@ -28,7 +45,12 @@ a:visited
 	color:white;
 }
 
-body
-{
-	background-color: black;
+body{
+  background: url(bk.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
 }
